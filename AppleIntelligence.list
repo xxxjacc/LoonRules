@@ -1,0 +1,14 @@
+# > Apple Intelligence Ruleset by Rinrin
+# > 苹果AI规则集
+# > Last updated 2025-09-29 01:55 (UTC+8)
+
+# Apple Intelligence 需分流到非香港地区
+DOMAIN-SUFFIX,guzzoni.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN,cp4.cloudflare.com
+DOMAIN,apple-relay.mask.apple-dns.net
+DOMAIN,apple-relay.apple.com
+DOMAIN,apple-relay.cloudflare.com
+DOMAIN,apple-relay.fastly-edge.com
+DOMAIN,gspe1-ssl.ls.apple.com
