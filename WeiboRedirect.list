@@ -1,6 +1,6 @@
 # > Redirect Weibo GeoLoc for Loon
 # > weibo-foreign-power modified by Rinrin
-# > Last updated 2025-08-15 12:15 (UTC+8)
+# > Last updated 2025-09-29 15:15 (UTC+8)
 
 #!name=微博 Ruleset
 #!desc=境外势力 but for privacy.
@@ -13,18 +13,18 @@ DOMAIN-SUFFIX,weico.cc
 # IP rules
 
 # weibo.com
-IP-CIDR,180.149.138.0/24
+IP-CIDR,180.149.138.0/24,no-resolve
 # weibo.cn, api.weibo.cn (The important one!)
-IP-CIDR,36.51.254.0/24
-IP-CIDR,49.7.40.0/24
-IP-CIDR,183.60.93.0/24
+IP-CIDR,36.51.254.0/24,no-resolve
+IP-CIDR,49.7.40.0/24,no-resolve
+IP-CIDR,183.60.93.0/24,no-resolve
 # dp.im.weibo.cn, *.biz.weibo.com
-IP-CIDR,49.7.36.0/24
+IP-CIDR,49.7.36.0/24,no-resolve
 # api.uve.weibo.com (Other *.uve.weibo.com are CNAME'd to here)
-IP-CIDR,180.149.138.39/32
+IP-CIDR,180.149.138.39/32,no-resolve
 # dns.weibo.com (uses AliDNS for Business service)
-IP-CIDR,39.97.130.0/24
-IP-CIDR,39.97.128.0/24
+IP-CIDR,39.97.130.0/24,no-resolve
+IP-CIDR,39.97.128.0/24,no-resolve
 
 # sinaimg.cn does not affect region display results, 
 # so no need to be paranoid (for now).
